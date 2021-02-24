@@ -170,7 +170,7 @@ kable(pend) %>%
 
 ## Mahasiswa Aktif
 
-> Mahasiswa aktif di semester ganjil Tahun Akademik 2020/2021 di setiap jenjang studi
+> Mahasiswa aktif di semester genap Tahun Akademik 2020/2021 di setiap jenjang studi (data blm update)
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
 aktif <- read_excel("static/aktif.xlsx")
@@ -186,7 +186,7 @@ kable(data) %>%
   add_header_above(c(" " = 1, "Jenjang Studi" = 4, " " = 1))
 ```
 
-> Mahasiswa aktif di semester ganjil Tahun Akademik 2020/2021 per Fakultas
+> Mahasiswa aktif di semester genap Tahun Akademik 2020/2021 per Fakultas (data belum update)
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
 
@@ -221,7 +221,7 @@ kable(data) %>%
   add_header_above(c(" " = 1, "Angkatan" = 7, " " = 1))
 ```
 
-> Mahasiswa aktif di semester ganjil Tahun Akademik 2020/2021 per Program Studi
+> Mahasiswa aktif di semester genap Tahun Akademik 2020/2021 per Program Studi (data blm update)
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
 data <- aktif %>%

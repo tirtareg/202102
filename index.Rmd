@@ -244,8 +244,8 @@ kable(data) %>%
   pack_rows("Pertanian", 26, 29, label_row_css = "background-color: #666; color: #fff;") %>%
   pack_rows("FEB", 30, 37, label_row_css = "background-color: #666; color: #fff;") %>%
   pack_rows("FISIP", 38, 40, label_row_css = "background-color: #666; color: #fff;") %>%
-  pack_rows("Pascasarjana", 41, 52, label_row_css = "background-color: #666; color: #fff;") %>%
-  pack_rows("Kedokteran", 53, 57, label_row_css = "background-color: #666; color: #fff;")
+  pack_rows("Pascasarjana", 41, 53, label_row_css = "background-color: #666; color: #fff;") %>%
+  pack_rows("Kedokteran", 54, 58, label_row_css = "background-color: #666; color: #fff;")
 ```
 
 ## Mahasiswa tidak aktif

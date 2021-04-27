@@ -1,6 +1,6 @@
 # Lulusan
 
-Rekapitulasi lulusan Universitas Sultan Ageng Tirtayasa jenjang Diploma, Sarjana, dan Pascasarjana sampai dengan Oktober 2020 (*sumber: Lampiran SK Lulusan per Oktober 2020*).
+Rekapitulasi lulusan Universitas Sultan Ageng Tirtayasa jenjang Diploma, Sarjana, dan Pascasarjana sampai dengan Desember 2020 (*sumber: Lampiran SK Lulusan per Oktober 2020*).
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 library(janitor)
